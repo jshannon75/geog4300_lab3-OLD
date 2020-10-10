@@ -8,6 +8,6 @@ Question 3 (out of 5):<p>
 Question 4 (out of 2):<p>
 Question 5 (out of 3):<p>
 Question 6 (out of 3):<p>
-Question 7 (out of 2):<p>>
+Question 7 (out of 2):<p>
 <p>
 Total (out of 20): 

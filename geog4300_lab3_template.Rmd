@@ -56,13 +56,13 @@ kable(rest_table)
 
 {Your response goes here}
 
-**Question 5 (3 points)**: Which burger restaurants had the most positive reviews? Filter the dataset so you only have restaurants classified as Burger (meaning they have a 1 in that column). Tokenize the words used in reviews and join sentiments from the Bing sentiment dictionary. Use group_by and summarise to count the number of positive and negative words by restaurant name. Then make the data wider so that the counts of positive and negative words are separate variables. Call the head of your table when done.*
+**Question 5 (3 points)**: Which burger restaurants had the most positive reviews? Filter the dataset so you only have restaurants classified as Burger (meaning they have a 1 in that column). Tokenize the words used in reviews and join sentiments from the Bing sentiment dictionary. Use group_by and summarise to count the number of positive, negative, and non-rated words by restaurant name. Then make the data wider so that all three counts are separate variables. Call the head of your table when done.*
 
 ```{r}
 #Code goes here
 ```
 
-**Question 6 (3 points)**: Use mutate to calculate the percentage of positive and negative words for each restaurant, then filter to select restaurants with at least 1,500 total words. Which restaurant had the highest rate of positive words? Which had the highest negative rate? 
+**Question 6 (3 points)**: Use mutate to calculate the percentage of positive and negative words for each restaurant, dividing each by the sum of counts you calculated in question 5 (positive, negative, and non-rated). Then filter to select restaurants with at least 1,500 total words. Which restaurant had the highest rate of positive words? Which had the highest negative rate? 
 
 ```{r}
 #Calculate the rate here
